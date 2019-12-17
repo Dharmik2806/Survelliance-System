@@ -11,3 +11,5 @@ Their functionalities are listed below.
    
 The Python language is responsible for handling the backend part that includes sending the video to the app and reciving the text through the app in form of text and then converting it into voice command.
 
+This Project is currently under devlopment.
+
