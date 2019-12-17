@@ -5,7 +5,7 @@ a lab in our case the 2 computer labs and it will allow to make announcements in
 Our system will make use of python as a backend language and andriod app as frontend. 
 Their functionalities are listed below.
 
-1. In the application it will allow the user to select which live video stream he/she wants to see.
+1. This application will allow the user to select which live video stream he/she wants to see.
 2. This application allow the user to see the live stream and it will also allow the user to announce any message that 
    he/she wants to.
    
