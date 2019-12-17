@@ -1,4 +1,4 @@
-# Survelliance-System
+# Surveillance-System
 This system includes a video capturing device,a speaker and an andriod app. This system will allows its user to monitor 
 a lab in our case the 2 computer labs and it will allow to make announcements in the the lab if necessary.
 
