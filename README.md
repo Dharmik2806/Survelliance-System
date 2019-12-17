@@ -1,6 +1,6 @@
 # Survelliance-System
 This system includes a video capturing device,a speaker and an andriod app. This system will allows its user to monitor 
-a room in our case the 2 computer labs and it will allow to make announcements in the the lab if necessary.
+a room. In this case the 2 computer labs and it will allow to make announcements in the the lab if necessary.
 
 Our system will make use of python as a backend language and andriod as frontend. Our app will bascally contain 2 pages.
 Their functionalities are listed below.
