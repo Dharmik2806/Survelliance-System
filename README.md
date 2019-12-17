@@ -9,7 +9,7 @@ Their functionalities are listed below.
 2. This application allow the user to see the live stream and it will also allow the user to announce any message that 
    he/she wants to.
    
-   In our case the user is HoD of CSPIT-CHARUSAT
+In our case the user is HoD of CSPIT-CHARUSAT.
 The Python language is responsible for handling the backend part that includes sending the video to the app and reciving the text through the app in form of text and then converting it into voice command.
 
 This Project is currently under devlopment.
