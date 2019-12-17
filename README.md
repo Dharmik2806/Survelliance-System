@@ -2,7 +2,7 @@
 This system includes a video capturing device,a speaker and an andriod app. This system will allows its user to monitor 
 a room. In this case the 2 computer labs and it will allow to make announcements in the the lab if necessary.
 
-Our system will make use of python as a backend language and andriod as frontend. Our app will bascally contain 2 pages.
+Our system will make use of python as a backend language and andriod as frontend. Our app will basically contain 2 pages.
 Their functionalities are listed below.
 
 1. This page will be the main page and it will allow the user to select which live video stream he/she wants to see.
