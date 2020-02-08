@@ -43,5 +43,13 @@ while True:
     frame=pickle.loads(frame_data, fix_imports=True, encoding="bytes")
     frame = cv2.imdecode(frame, cv2.IMREAD_COLOR)
     cv2.imshow('ImageWindow',frame)
-    cv2.waitKey(1)
+    key = cv2.waitKey(1) & 0xFF
+    # check for 'q' key-press
+    if key == ord("q"):
+        #if 'q' key-pressed break out
+        break
+
+# close output window
+cv2.destroyAllWindows()
+
 
