@@ -1,18 +1,20 @@
 import socket
 import time
 
+
+
 HEADERSIZE = 10
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #Af_Inet correspond to ipv4 and sock_stream correspond to tcp
-s.bind((socket.gethostname(), 1244))
+s.bind(("192.168.8.82", 1244))
 s.listen(5)
 
 while True:
     clientsocket, address = s.accept()
     print(f"connection from {address} has been established")
 
-    
-    msg = "Welcome to the server!"
+    msg=input("Please enter your message: ")
+    #msg = "Welcome to the server!"
     msg = f'{len(msg):<{HEADERSIZE}}' + msg 
 
     clientsocket.send(bytes(msg, "utf-8"))
